@@ -11,3 +11,12 @@
 
 # Ensure *.conf files get text/plain content type
 AddType text/plain .conf
+
+# Use HTTP Basic Authentication for this dev site
+# Add users to the .htpasswd file by appending the output of `htpasswd -n newuser`
+AuthType Basic
+AuthName "Authentication Required"
+AuthUserFile "/usr/local/etc/apache/.htpasswd-jbrowse-private"
+Require valid-user
+Order allow,deny
+Allow from all
