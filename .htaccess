@@ -8,3 +8,6 @@
     Header onsuccess set Access-Control-Allow-Origin *
     Header onsuccess set Access-Control-Allow-Headers X-Requested-With
 </IfModule>
+
+# Ensure *.conf files get text/plain content type
+AddType text/plain .conf
