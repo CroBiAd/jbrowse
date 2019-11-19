@@ -1,0 +1,9 @@
+[submodule "plugins/MultiBigWig"]
+	path = plugins/MultiBigWig
+	url = https://github.com/CroBiAd/multibigwig
+[submodule "plugins/GCContent"]
+	path = plugins/GCContent
+	url = https://github.com/CroBiAd/gccontent
+[submodule "plugins/FeatureSequence"]
+	path = plugins/FeatureSequence
+	url = https://github.com/CroBiAd/FeatureSequence
